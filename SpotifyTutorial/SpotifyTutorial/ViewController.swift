@@ -12,8 +12,11 @@ class ViewController: UIViewController,SPTAuthViewDelegate, SPTAudioStreamingPla
     
     let kClientID = "c297a329ca3840af84cd0afab98c0251"
     let kCallbackURL = "spotifytutorial://"
-    let kTokenSwapURL = "http://localhost:1234/swap"
-    let kTokenRefreshURL = "http://localhost:1234/refresh"
+    let kTokenSwapURL = "http://tokenswap.parseapp.com/swap"
+    let kTokenRefreshURL = "http://tokenswap.parseapp.com/refresh"
+    
+    //let kTokenSwapURL = "http://localhost:1234/swap"
+    //let kTokenRefreshURL = "http://localhost:1234/refresh"
     
     var player: SPTAudioStreamingController?
     let spotifyAuthenticator = SPTAuth.defaultInstance()

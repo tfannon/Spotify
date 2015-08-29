@@ -1,0 +1,10 @@
+{
+  "applications": {
+    "_default": {
+      "link": "spotifytokenswap"
+    },
+    "spotifytokenswap": {
+      "applicationId": "EcS9uHBwWqKGDuF52hPZjFPi8JTtHKBf11Na7DXo"
+    }
+  }
+}

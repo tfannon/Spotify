@@ -7,13 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		652E46CC1B8F3CED00C92B73 /* Spotify.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 652E46CB1B8F3CED00C92B73 /* Spotify.framework */; };
+		65586ABD1B921A93003CAF89 /* spotify_token_swap.rb in Resources */ = {isa = PBXBuildFile; fileRef = 65586AB51B921A93003CAF89 /* spotify_token_swap.rb */; };
+		65586ABE1B921A93003CAF89 /* .parse.local in Resources */ = {isa = PBXBuildFile; fileRef = 65586AB71B921A93003CAF89 /* .parse.local */; };
+		65586ABF1B921A93003CAF89 /* .parse.project in Resources */ = {isa = PBXBuildFile; fileRef = 65586AB81B921A93003CAF89 /* .parse.project */; };
+		65586AC01B921A93003CAF89 /* main.js in Resources */ = {isa = PBXBuildFile; fileRef = 65586ABA1B921A93003CAF89 /* main.js */; };
+		65586AC11B921A93003CAF89 /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = 65586ABC1B921A93003CAF89 /* index.html */; };
 		6581253B1B15357100E7BD7D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6581253A1B15357100E7BD7D /* AppDelegate.swift */; };
 		6581253D1B15357100E7BD7D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6581253C1B15357100E7BD7D /* ViewController.swift */; };
 		658125401B15357100E7BD7D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6581253E1B15357100E7BD7D /* Main.storyboard */; };
 		658125421B15357100E7BD7D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 658125411B15357100E7BD7D /* Images.xcassets */; };
 		658125451B15357100E7BD7D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 658125431B15357100E7BD7D /* LaunchScreen.xib */; };
 		658125511B15357100E7BD7D /* SpotifyTutorialTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 658125501B15357100E7BD7D /* SpotifyTutorialTests.swift */; };
-		6581255B1B1535B800E7BD7D /* Spotify.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6581255A1B1535B800E7BD7D /* Spotify.framework */; };
 		6581255D1B1539D100E7BD7D /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6581255C1B1539D100E7BD7D /* AVFoundation.framework */; };
 /* End PBXBuildFile section */
 
@@ -28,6 +33,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		652E46CB1B8F3CED00C92B73 /* Spotify.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Spotify.framework; sourceTree = "<group>"; };
+		65586AB51B921A93003CAF89 /* spotify_token_swap.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; name = spotify_token_swap.rb; path = ../spotify_token_swap.rb; sourceTree = "<group>"; };
+		65586AB71B921A93003CAF89 /* .parse.local */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .parse.local; sourceTree = "<group>"; };
+		65586AB81B921A93003CAF89 /* .parse.project */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .parse.project; sourceTree = "<group>"; };
+		65586ABA1B921A93003CAF89 /* main.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = main.js; sourceTree = "<group>"; };
+		65586ABC1B921A93003CAF89 /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
 		658125351B15357100E7BD7D /* SpotifyTutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpotifyTutorial.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		658125391B15357100E7BD7D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6581253A1B15357100E7BD7D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -38,7 +49,6 @@
 		6581254A1B15357100E7BD7D /* SpotifyTutorialTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpotifyTutorialTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6581254F1B15357100E7BD7D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		658125501B15357100E7BD7D /* SpotifyTutorialTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotifyTutorialTests.swift; sourceTree = "<group>"; };
-		6581255A1B1535B800E7BD7D /* Spotify.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Spotify.framework; sourceTree = "<group>"; };
 		6581255C1B1539D100E7BD7D /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		6581255E1B153D0E00E7BD7D /* SpotifyTutorial-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SpotifyTutorial-Bridging-Header.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -49,7 +59,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6581255D1B1539D100E7BD7D /* AVFoundation.framework in Frameworks */,
-				6581255B1B1535B800E7BD7D /* Spotify.framework in Frameworks */,
+				652E46CC1B8F3CED00C92B73 /* Spotify.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,9 +73,38 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		65586AB61B921A93003CAF89 /* spotifytokenswap */ = {
+			isa = PBXGroup;
+			children = (
+				65586AB51B921A93003CAF89 /* spotify_token_swap.rb */,
+				65586AB71B921A93003CAF89 /* .parse.local */,
+				65586AB81B921A93003CAF89 /* .parse.project */,
+				65586AB91B921A93003CAF89 /* cloud */,
+				65586ABB1B921A93003CAF89 /* public */,
+			);
+			path = spotifytokenswap;
+			sourceTree = "<group>";
+		};
+		65586AB91B921A93003CAF89 /* cloud */ = {
+			isa = PBXGroup;
+			children = (
+				65586ABA1B921A93003CAF89 /* main.js */,
+			);
+			path = cloud;
+			sourceTree = "<group>";
+		};
+		65586ABB1B921A93003CAF89 /* public */ = {
+			isa = PBXGroup;
+			children = (
+				65586ABC1B921A93003CAF89 /* index.html */,
+			);
+			path = public;
+			sourceTree = "<group>";
+		};
 		6581252C1B15357000E7BD7D = {
 			isa = PBXGroup;
 			children = (
+				652E46CB1B8F3CED00C92B73 /* Spotify.framework */,
 				6581255C1B1539D100E7BD7D /* AVFoundation.framework */,
 				658125371B15357100E7BD7D /* SpotifyTutorial */,
 				6581254D1B15357100E7BD7D /* SpotifyTutorialTests */,
@@ -86,7 +125,7 @@
 		658125371B15357100E7BD7D /* SpotifyTutorial */ = {
 			isa = PBXGroup;
 			children = (
-				6581255A1B1535B800E7BD7D /* Spotify.framework */,
+				65586AB61B921A93003CAF89 /* spotifytokenswap */,
 				6581253A1B15357100E7BD7D /* AppDelegate.swift */,
 				6581253C1B15357100E7BD7D /* ViewController.swift */,
 				6581253E1B15357100E7BD7D /* Main.storyboard */,
@@ -204,7 +243,12 @@
 			files = (
 				658125401B15357100E7BD7D /* Main.storyboard in Resources */,
 				658125451B15357100E7BD7D /* LaunchScreen.xib in Resources */,
+				65586ABF1B921A93003CAF89 /* .parse.project in Resources */,
+				65586ABE1B921A93003CAF89 /* .parse.local in Resources */,
+				65586AC01B921A93003CAF89 /* main.js in Resources */,
+				65586AC11B921A93003CAF89 /* index.html in Resources */,
 				658125421B15357100E7BD7D /* Images.xcassets in Resources */,
+				65586ABD1B921A93003CAF89 /* spotify_token_swap.rb in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -354,6 +398,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/SpotifyTutorial",
+					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = SpotifyTutorial/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -372,6 +417,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/SpotifyTutorial",
+					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = SpotifyTutorial/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
